@@ -1,0 +1,309 @@
+%-------------------------
+% Resume in Latex
+% Author: Kavin Naresh
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.3in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.1in}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-15pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-11pt}]
+
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-3pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-15pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-3pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{2pt}
+}
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Kavin Naresh G R} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:905314204536}{+91 9751983211}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:kavinnares@gmail.com}{kavinnares@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/kavin-naresh-g-r/}{LinkedIn/kavin-naresh-g-r}
+    $|$
+    \faGlobe \hspace{.5pt} \href{https://kavinkavin16.github.io/portfolio/}{Portfolio}
+     $|$
+    \faMapMarker \hspace{.5pt} \href{https://maps.app.goo.gl/7d4xVmMTN6pnK8Dj8}{Madurai, TamilNadu}
+\end{center}
+
+
+%----------- CARRER OBJECTIVE -----------
+
+\section{Carrer Objective}
+  \vspace{6pt}
+  
+
+{\textbf{Passionate and skilled Java Backend Developer with extensive expertise in AWS cloud services, boasting over 2 years of hands-on experience in crafting, implementing, and managing scalable applications on AWS infrastructure. Demonstrated history of delivering exceptional results and driving innovation across a span of more than 2.8 years. Committed to continuous learning and embracing new technologies, maintaining high motivation and resilience to tackle fresh challenges head-on.}}
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Professional Summary}
+  \vspace{6pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\textbf{\href{https://www.infosys.com/}{Infosys Limited}}}{{\href{https://maps.app.goo.gl/e3e6FQX7A46s8PVY6}{Bengaluru, Karnataka}}}
+      {Systems Engineer}{Nov 2021 \textbf{--} Present, Full-time}
+        \resumeItemListStart
+           \resumeItem{Implemented Gradle-based Spring Boot microservices for MuleSoft ETL API transformations, ensuring smooth business operations.}
+           \resumeItem{Integrated Solr Search with the Spring Boot application to index API responses post-transformation.}
+           \resumeItem{Utilized AWS Cognito for seamless user login integration and AWS SDK to interact with various AWS services such as S3 bucket, EC2, and Dynamo DB.}
+	 \resumeItem{Conducted meticulous migration procedures and executed pre-deployment and performance testing.}  
+	\resumeItem{Defined transformation conditions in a JSON file using Spring Expression Language.}
+	\resumeItem{Provided ongoing warranty support to optimize operations and minimize downtime risks.}
+	\resumeItem{Ensured compatibility and seamless integration between different modules and systems.}
+	\resumeItem{Collaborated closely with a team of developers and architects to design, implement, and deploy cloud-based solutions using AWS services.}
+	\resumeItem{Collaborated in an Agile development environment, designing and implementing RESTful APIs using Java and Spring Boot, enabling seamless communication between client applications and server services.}
+	\resumeItem{Developed unit tests using JUnit to ensure robust code and conducted integration testing to validate system components.}
+	\resumeItem{Utilized Git for version control, actively participating in code reviews to maintain code quality and consistency.}
+	\resumeItem{Leveraged cutting-edge technologies such as GitHub Copilot to enhance code generation and accelerate development workflows.}
+	\resumeItem{Worked closely with QA teams to identify and resolve software defects, ensuring high-quality deliverables.}
+	\resumeItem{Actively engaged in continuous learning and stayed up-to-date with the latest AWS services, Java frameworks, and software development trends.}
+
+        \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+%----------- INTERNSHIP EXPERIENCE -----------
+
+\section{Internship Experience}
+  \vspace{6pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\textbf{\href{https://www.chainsys.com/}{Chain-Sys India Pvt Ltd}}}{{\href{https://maps.app.goo.gl/CkDDxi68E4NwArMKA}{Chennai, TamilNadu}}}
+      {Oracle Fusion Consultant}{Mar 2021 \textbf{--} Sep 2021, Internship}
+        \resumeItemListStart
+            \resumeItem{Worked as an Oracle Fusion Consultant, I excelled in BI, OTBI report development, Oracle E-Business Suite optimization, data analysis, and dashboard creation within Oracle Fusion instances.}
+            \resumeItem{Leveraging SQL and PL/SQL, I crafted comprehensive reports, optimized EBS applications, and implemented insightful dashboards, contributing to efficient and data-driven business processes.}
+            \resumeItem{Worked as OIC consultant for top-tier singapore clients.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+ \section{Most Recent Awards \& Achievements}
+ \vspace{0.1pt}
+ \resumeSubHeadingListStart
+ \small{\item{
+
+    \resumeSubheading
+      {Math Expression OCR detection}{\textbf{}Bengaluru, Karnataka}
+      {Python3, Angular, Anaconda Jupyter}{Jan 2024 \textbf{--} Apr 2024, Infosys Techzooka (Team:6)}
+        \resumeItemListStart
+	            \resumeItem{This project involves developing an Angular-based frontend for uploading handwritten math expressions. It integrates a deep learning model using Tesseract library in Python for OCR and bounding box detection, trained on inkml files for Greek, Indian math symbols, alphabets, and numbers. The system generates LaTeX code to produce PDFs from detected OCR of handwritten images uploaded through the Angular frontend.}
+        \resumeItemListEnd
+
+
+\textbf{\href{https://www.linkedin.com/posts/shakthivarman-thangavelu_happy-to-announce-that-i-have-lead-this-young-activity-7132986612459655168-5suN?utm_source=share&utm_medium=member_desktop}{IBM WatsonX Challenge for GSI:}}\\ \vspace{3pt}
+      {IBM - Watsonx assistant, Watsonx.ai and Watson discovery}{\textbf{.              } Nov 2023 \textbf{--} Dec 2023, Infosys Techzooka (Team:6)}
+    \resumeItemListStart
+	            \resumeItem{We won 1st prize in IBM challenge by creating a intelligent banking virtual agent by leveraging Watson Discovery model for precise and efficient answers.}
+		  \resumeItem{My Contribution: I was involved to handle the prompt for user’s payments and account related details and configuring the Watson discovery in Banking Bot.}	
+        \resumeItemListEnd
+       
+ }}
+\resumeSubHeadingListEnd
+
+%--------------- CAPSTONE PROJECTS-----------------
+
+Capstone Project Title: E-Commerce Application
+
+Project Description: It is an order management application for user to buy different product and has features like wish list, add to cart, place order and reward points.
+My Contribution: I was involved in CRUD development activities with RESTful web services. Used Technologies: Java, Spring boot and Spring Microservices
+
+
+Capstone Project Title: CI/CD implementation in AWS Cloud	Team Size: 1
+
+Project Description: Deploying the spring boot application in EC2 instance using CI/CD technologies.
+AWS Services Used: Code commit, Code build, Code Deploy and Code Pipeline, EC2 instance, S3, RDS, IAM
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+\vspace{6pt}
+  \resumeSubHeadingListStart
+    \resumeEducationHeading
+{\textbf{\href{https://www.ritrjpm.ac.in/}{Ramco Institute of Technology}}} % Link added to the text
+%      {Ramco Institute of Technology}
+      {{\href{https://maps.app.goo.gl/hTBB5A97REHcSghFA}{Virudhunagar, TamilNadu}}}
+      {B.E. in Computer Science \& Engineering;   \textbf{(CGPA of 8.0)}}{March 2017 \textbf{--}May 2021}
+      {\textbf{}}{ \textbf{}}
+  \resumeSubHeadingListEnd
+
+%----------- RESEARCH EXPERIENCE -----------
+
+\section{Academic Projects}
+  \vspace{6pt}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Driver Drowsiness Detection}{\textbf{}Virudhunagar, TamilNadu}
+      {Python3, Angular, Anaconda Jupyter}{Nov 2020 \textbf{--} Feb 2021, Final year project}
+        \resumeItemListStart
+            \resumeItem{The developed app employs a CNN model for Driver Drowsiness Detection, utilizing OpenCV for face and eye tracking. The system continuously monitors the user's eye state, triggering an alarm for drowsiness. The absence of an included Angular UI implies a separate development for user control and monitoring features.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Mess Management System}{Virudhunagar, TamilNadu}
+      {Java, Spring Boot, MySQL and Angular}{Oct 2019 \textbf{--} Feb 2020, Third year project}
+        \resumeItemListStart
+            \resumeItem{Developed an in-house Mess web  project using angular as FrontEnd and spring boot as a backend to create REST APIs and MySQL to store the product, user, and order details.}
+            \resumeItem{Used Hibernate JPA implementation for ORM mapping and to support CRUD operation to database.}
+            \resumeItem{ Used Okta Oauth2 third-party libraries to handle user's registration and authentication.}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        
+        \textbf{Programming Languages:}{ Java, Python, TypeScript, SQL \& PLSQL} \\ \vspace{3pt}
+        \textbf{Technologies/Frameworks/Libraries:}{ Springboot, Web Services (REST \& SOAP), Kubernetes, IBM MQ, Linux, Angular, MongoDB, AWS } \\ \vspace{3pt}
+        \textbf{Version Control, IDE and Iaas:}{ Git, Intellij and Terraform } \\ \vspace{3pt}
+        \textbf{AWS Cloud Services:}{ EC2, RDS, Lamda, S3, CI/CD, IAM, SQS, SNS, ECS/ECR, CloudWatch and CloudTrail. } \\ \vspace{3pt}
+        \textbf{AI:}{ Generative AI and GitHub Copilot} \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+%----------- Personal aspects -----------
+
+\section{Personal Aspets}
+  \vspace{6pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        
+        \textbf{Father Name:}{Rengaraj G} \\ \vspace{3pt}
+        \textbf{Total Experience:}{2.8 years} \\ \vspace{3pt}
+        \textbf{Current CTC:}{4 LPA} \\ \vspace{3pt}
+        \textbf{Expected CTC:}{ As Per Standards } \\ \vspace{3pt}
+        \textbf{Notice Period:}{3 Months} \\ \vspace{3pt}
+        \textbf{Marital Status:}{Single} \\ \vspace{3pt}
+        \textbf{Personal Traits:}{Interested in learning new things, Smart working, Excellent leadership skills, Willing to Travel and Flexible.} \\ \vspace{3pt}
+        \textbf{Linguistic communication:}{ English, Tamil, Kannada, Telugu} \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+
+%----------- DECLARATION -----------
+
+\section{Declaration}
+  \vspace{6pt}
+  
+  {\textbf{I hereby declare that the details furnished above are true and correct to the best of my knowledge.}}
+  
+  \begin{flushleft}
+    \textbf{Place: Madurai, TamilNadu}
+  \end{flushleft}
+  
+  \begin{flushright}
+    \textbf{-- Kavin Naresh G R}
+  \end{flushright}
+
+
+%-------------------------------------------
+\end{document}
