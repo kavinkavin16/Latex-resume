@@ -42,9 +42,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-10pt}\scshape\raggedright\large
+  \vspace{-10pt}\scshape\raggedright\large\color{blue}
 }{}{0em}{}[\color{black}\titlerule \vspace{-10pt}]
-
 
 %-------------------------
 % Custom commands
@@ -100,6 +99,11 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+\definecolor{mygreen}{RGB}{69, 123, 138}
+
+\definecolor{myblue}{RGB}{20, 27, 110}
+
+\definecolor{myred}{RGB}{255, 0, 0}
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -108,22 +112,21 @@
 \begin{center}
     \textbf{\Huge \scshape Kavin Naresh G R} \\ \vspace{1pt}
     \small
-    \faMobile \hspace{.5pt} \href{tel:9751983211}{+91 9751983211}
+    \textcolor{mygreen}{\faMobile \hspace{.5pt} \href{tel:9751983211}{+91 9751983211}}
     $|$
-    \faAt \hspace{.5pt} \href{mailto:kavinnares@gmail.com}{kavinnares@gmail.com}
+    \textcolor{myred}{\faAt \hspace{.5pt} \href{mailto:kavinnares@gmail.com}{kavinnares@gmail.com}}
     $|$
-    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/kavin-naresh-g-r/}{LinkedIn/kavin-naresh-g-r}
+    \textcolor{RoyalBlue}{\faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/kavin-naresh-g-r/}{LinkedIn/kavin-naresh-g-r}}
     $|$
-    \faGlobe \hspace{.5pt} \href{https://kavinkavin16.github.io/portfolio/}{Portfolio}
+    \textcolor{myblue}{\faGlobe \hspace{.5pt} \href{https://kavinkavin16.github.io/portfolio/}{Portfolio}}
     $|$
-    \faMapMarker \hspace{.5pt} \href{https://maps.app.goo.gl/7d4xVmMTN6pnK8Dj8}{Madurai, TamilNadu}
+    \textcolor{DarkOrchid}{\faMapMarker \hspace{.5pt} \href{https://maps.app.goo.gl/7d4xVmMTN6pnK8Dj8}{Madurai, TamilNadu}}
 \end{center}
 
 %----------- CAREER OBJECTIVE -----------
 \section{Career Objective}
   \vspace{6pt}
 Passionate and skilled Java Backend Developer with extensive expertise in AWS cloud services, boasting over 2 years of hands-on experience in crafting, implementing, and managing scalable applications on AWS infrastructure. Demonstrated history of delivering exceptional results and driving innovation across a span of more than 2.8 years. Committed to continuous learning and embracing new technologies, maintaining high motivation and resilience to tackle fresh challenges head-on.
-
 
 %----------- WORK EXPERIENCE -----------
 
@@ -184,13 +187,18 @@ Passionate and skilled Java Backend Developer with extensive expertise in AWS cl
             \resumeItem{Developed an Angular-based frontend for uploading handwritten math expressions. Integrated a deep learning model using the Tesseract library in Python for OCR and bounding box detection, trained on inkml files for Greek, Indian math symbols, alphabets, and numbers. The system generates LaTeX code to produce PDFs from detected OCR of handwritten images uploaded through the Angular frontend.}
         \resumeItemListEnd
 
-    \resumeSubheading
-      {IBM WatsonX Challenge for GSI}{Bengaluru, Karnataka}
-      {IBM - Watsonx Assistant, Watsonx.ai, and Watson Discovery}{Nov 2023 -- Dec 2023, Infosys Techzooka (Team: 6)}
-        \resumeItemListStart
-            \resumeItem{Won 1st prize in the IBM challenge by creating an intelligent banking virtual agent leveraging the Watson Discovery model for precise and efficient answers.}
-            \resumeItem{My Contribution: Handled the prompt for user payments and account-related details and configured Watson Discovery in the Banking Bot.}
-        \resumeItemListEnd
+  \resumeSubheading
+  {IBM WatsonX Challenge for GSI}
+  {\textbf{Bengaluru, Karnataka}}
+  {IBM - Watsonx Assistant, Watsonx.ai, and Watson Discovery}
+  {Nov 2023 -- Dec 2023, Infosys Techzooka (Team: 6)}
+  \resumeItemListStart
+      \resumeItem{Won 1st prize in the IBM challenge by creating an intelligent banking virtual agent leveraging the Watson Discovery model for precise and efficient answers.}
+      \resumeItem{My Contribution: Handled the prompt for user payments and account-related details and configured Watson Discovery in the Banking Bot.}
+  \resumeItemListEnd
+  \vspace{1pt} % Adjust spacing if needed
+  \small{\textcolor{blue}{(LinkedIn: \href{https://www.linkedin.com/posts/shakthivarman-thangavelu_happy-to-announce-that-i-have-lead-this-young-activity-7132986612459655168-5suN?utm_source=share&utm_medium=member_desktop}{View Post})}}
+
 }}
 \resumeSubHeadingListEnd
 
